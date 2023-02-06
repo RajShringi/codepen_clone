@@ -1,13 +1,82 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: rgb(52, 52, 52);
+}
+
+.iframe-container__iframe {
+  border: 0;
+  height: 50vh;
+}
+
+.pane-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  background: rgb(241, 241, 241);
+}
+
+.pane {
+  width: 32%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.pane__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background: rgb(49, 49, 49);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.pane__header h2 {
+  font-size: 1rem;
+  color: #fafafa;
+}
+
+.editor {
+  font-size: 1rem;
+
+  font-weight: bold;
+  flex-grow: 1;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.red,
+.yellow,
+.green {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.red {
+  background: rgb(241, 101, 101);
+}
+.yellow {
+  background: rgb(237, 222, 92);
+}
+.green {
+  background: rgb(83, 233, 83);
 }
