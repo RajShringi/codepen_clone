@@ -1,6 +1,6 @@
 
 # 🖥 CodePen Clone
-## Basic Overview - [Live Demo](https://react-shopping-cart-hooks.vercel.app/)
+## Basic Overview - [Live Demo](https://codepen-clone-phi.vercel.app/)
 ![Screenshot 2023-02-06 at 7 27 59 PM](https://user-images.githubusercontent.com/54682451/216990559-d3558cdb-16c8-4581-a1e6-6e13eebfeeca.png)
 
 A Simple Codepen clone built using ReactJS that allow users to write HTML, CSS, and JavaScript code in browser and see the results of it as you build.
